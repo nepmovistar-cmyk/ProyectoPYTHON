@@ -6,3 +6,10 @@ calificaciones = pd.DataFrame({'Estudiante': ['A', 'B', 'C'], 'Calificación': [
 # Calcular la calificación promedio
 promedio = calificaciones['Calificación'].mean()
 print("La calificación promedio es:", promedio)
+
+# Sumar dos números
+def sumar(a, b):
+    return a + b
+
+resultado = sumar(3, 5)
+print("El resultado es:", resultado)
